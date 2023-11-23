@@ -70,7 +70,7 @@ class Store {
       list: this.state.list.map(item => {
         if (item.code === code) {
           item.selected = !item.selected;
-          if else (item.selectedNum) {
+          if (item.selectedNum) {
             item.selectedNum=item.selectedNum+1;
         }
             else
